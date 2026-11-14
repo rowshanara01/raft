@@ -45,7 +45,7 @@ console.log(cluster.violations);                                // -> [] (no saf
 
 ## What is implemented
 
-| Area | Details |
+| Area | Details about |
 |---|---|
 | **Leader election** | Randomized election timeouts, terms, majority voting, the **election restriction** (a candidate with a less up-to-date log cannot win) |
 | **Log replication** | `AppendEntries` with the log-matching check, overwriting of conflicting uncommitted entries, batching, fast conflict backup using a conflict-index hint |

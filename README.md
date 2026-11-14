@@ -71,7 +71,7 @@ test/
 
 ## How the testing works ##
 
-### Deterministic simulation
+#### Deterministic simulation ####
 
 All sources of nondeterminism are controlled by the simulator: the clock (virtual milliseconds advanced one tick at a time),
 message latency, drops, duplication, partitions, and crashes. Everything is driven by a seeded pseudo-random generator, so

@@ -1,7 +1,3 @@
-
-
-
-
 # raf A Distributed Key-Value Store Built on Raft, Tested with Deterministic Simulation # raft-kv: A Distributed Key-Value 
 Store Built on Raft, Tested with Deterministic Simulation apply
 
@@ -43,7 +39,7 @@ console.log(cluster.violations);                                // -> [] (no saf
 
 ---
 
-## What is implemented
+## What is implemented ##
 
 | Area | Details about |
 |---|---|

@@ -53,7 +53,7 @@ console.log(cluster.violations);                                // -> [] (no saf
 
 ---
 
-## Project layout
+## Project layout ##
 
 ```
 src/

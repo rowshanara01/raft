@@ -84,7 +84,7 @@ The simulated faults:
 - Network partitions (including cutting messages that are already in flight)
 - Node crash and restart: volatile state is lost, the simulated disk survives
 
-### Safety invariants checked on every tick
+#### Safety invariants checked on every tick ###3
 
 1. **Election Safety**: at most one leader per term.
 2. **State Machine Safety**: once an entry is committed at an index, no node ever commits a different entry at that index.

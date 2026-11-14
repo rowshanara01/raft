@@ -2,7 +2,8 @@
 
 
 
-# raft-kv: A Distributed Key-Value Store Built on Raft, Tested with Deterministic Simulation # raft-kv: A Distributed Key-Value Store Built on Raft, Tested with Deterministic Simulation
+# raft-kv: A Distributed Key-Value Store Built on Raft, Tested with Deterministic Simulation # raft-kv: A Distributed Key-Value 
+Store Built on Raft, Tested with Deterministic Simulation
 
 A from-scratch implementation of the **Raft consensus algorithm** in TypeScript, plus a **deterministic simulator** that
 injects crashes, network partitions, and message loss/duplication/reordering while checking safety invariants on every tick.
@@ -15,8 +16,7 @@ acknowledged data is not lost and the cluster never gives conflicting answers. P
 
 ---
 
-## Quick start
-
+## Quick start t0
 Requires Node.js 20+. There are no runtime dependencies.
 
 ```bash

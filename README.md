@@ -84,7 +84,7 @@ The simulated faults:
 - Network partitions (including cutting messages that are already in flight)
 - Node crash and restart: volatile state is lost, the simulated disk survives
 
-#### Safety invariants checked on every tick ###3
+#### Safety invariants checked on every tick ###
 
 1. **Election Safety**: at most one leader per term.
 2. **State Machine Safety**: once an entry is committed at an index, no node ever commits a different entry at that index.
@@ -101,7 +101,7 @@ key and occasionally reads it back. The run then verifies:
 
 ---
 
-## Results
+## Results ##
 
 Chaos run: 30 seeds, 10 simulated seconds each, 5 nodes, 3 concurrent clients, random crashes/partitions/message faults.
 

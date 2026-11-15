@@ -119,7 +119,7 @@ a majority-loss scenario, durability after crashing every node, and a directed r
 
 ---
 
-## Does the test suite actually catch bugs? (mutation testing)
+## Does the test suite actually catch bugs? (mutation testing) ##
 
 Passing tests only matter if they can fail. I deliberately injected known Raft bugs into `raft.ts` and checked whether the suite noticed.
 

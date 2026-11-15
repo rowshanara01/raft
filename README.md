@@ -69,7 +69,7 @@ test/
 
 ---
 
-## How the testing works ##
+#### How the testing works ####
 
 #### Deterministic simulation ####
 

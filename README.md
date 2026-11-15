@@ -12,7 +12,7 @@ acknowledged data is not lost and the cluster never gives conflicting answers. P
 
 ---
 
-## Quick start t0 ##
+#### Quick start t0 ####
 Requires Node.js 20+. There are no runtime dependencies.
 
 ```bash

@@ -168,7 +168,7 @@ Two things I learned while doing this:
 
 ---
 
-## Challenges (roughly increasing difficulty)
+## Challenges (roughly increasing difficulty) ##
 
 1. Snapshots and the `InstallSnapshot` RPC.
 2. PreVote and CheckQuorum; measure how much they reduce term inflation in the chaos runs.

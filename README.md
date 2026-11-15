@@ -146,7 +146,7 @@ Two things I learned while doing this:
 
 ---
 
-## Design notes worth knowing
+## Design notes worth knowing ##
 
 - **Persist before you reply.** A node writes `votedFor` and `currentTerm` to disk before granting a vote. Otherwise a restart could let it vote twice in one term and produce two leaders.
 - **Leader no-op.** A new leader cannot commit entries from earlier terms by counting replicas alone, so it appends a no-op in its own term. Committing that no-op commits everything before it.

@@ -156,7 +156,7 @@ Two things I learned while doing this:
 
 ---
 
-## Limitations (what is missing for production use)
+## Limitations (what is missing for production use) ##
 
 - **Simulated network and disk.** There is no real TCP/gRPC transport and no on-disk write-ahead log. A real system must `fsync` before replying; `persist()` marks the place.
 - **No snapshots or log compaction.** The log grows forever and a restarted node replays all of it.

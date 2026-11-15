@@ -39,7 +39,7 @@ console.log(cluster.violations);                                // -> [] (no saf
 
 ---
 
-## What is implemented ##
+#### What is implemented ####
 
 | Area | Details about |
 |---|---|

@@ -101,7 +101,7 @@ key and occasionally reads it back. The run then verifies:
 
 ---
 
-## Results ##
+#### Results ####
 
 Chaos run: 30 seeds, 10 simulated seconds each, 5 nodes, 3 concurrent clients, random crashes/partitions/message faults.
 

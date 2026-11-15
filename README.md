@@ -1,4 +1,4 @@
-#### raf A Distributed Key-Value Store Built on Raft, Tested with Deterministic Simulation # raft-kv: A Distributed Key-Value 
+#### raf A Distributed Key-Value Store Built on Raft, Tested with Deterministic Simulation # raft-kv: A Distributed Key-Value  ####
 Store Built on Raft, Tested with Deterministic Simulation apply
 
 A from-scratch implementation of the **Raft consensus algorithm** in TypeScript, plus a **deterministic simulator** that
